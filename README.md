@@ -11,7 +11,7 @@ This repository is for educational purposes only — created to learn about cybe
 - **Description:** Monitors and records keystrokes using the `pynput` library.
 - **Purpose:** Learn how keystroke capture works at a system level.
 - **Note:** For ethical testing only, with permission.
-- **Output Screenshot:**
+- **Output:** key_log.txt file 
 
 
 
@@ -37,14 +37,14 @@ This repository is for educational purposes only — created to learn about cybe
 - **Description:** Captures and analyzes network packets using the `scapy` library.
 - **Note:** Requires **Npcap** or **WinPcap** installed (Windows).
 - **Output Screenshot:**
-![Packet Sniffer Output](screenshots/packet_sniffer.png)
+[![dd59ba37-276c-4f8a-8bcf-0617abf87ad3.jpg](https://i.postimg.cc/Pf9XH9KJ/dd59ba37-276c-4f8a-8bcf-0617abf87ad3.jpg)](https://postimg.cc/6TVJLHkx)
 
 ---
 
 ### 5. **Basic Network Scanner (Python)**
 - **Description:** Scans a network for active devices using `socket` and `ipaddress` libraries, with optional hostname & MAC address detection.
 - **Output Screenshot:**
-![Network Scanner Output](screenshots/network_scanner.png)
+
 
 ---
 

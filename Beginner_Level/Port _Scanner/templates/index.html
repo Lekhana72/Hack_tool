@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Scanner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="scanner-container">
+        <h1>Port Scanner</h1>
+        <label>Target IP / Domain:</label>
+        <input type="text" id="target" placeholder="e.g. scanme.nmap.org">
+
+        <label>Start Port:</label>
+        <input type="number" id="startPort" value="1">
+
+        <label>End Port:</label>
+        <input type="number" id="endPort" value="100">
+
+        <button id="scanBtn">Start Scan</button>
+
+        <div class="results">
+            <h2>Scan Results:</h2>
+            <ul id="resultsList"></ul>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
